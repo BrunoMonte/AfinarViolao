@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afinador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>Afinar Violão - Percepção</header>
+    <section>
+        <audio id ="audio" src="afinarviolao.mp3"></audio>
+        <a href="#" onclick="document.getElementById('audio').play()">Play</a> 
+        <a href="#" onclick="document.getElementById('audio').pause()">Pause</a>
+        <a href="#" onclick="document.getElementById('audio').volume+=0.1">Aumentar</a>
+        <a href="#" onclick="document.getElementById('audio').volume-=0.1">Diminuir</a>
+    </section>
+    <footer>
+        <p>&copy; BrunoMonte</p>
+    </footer>
+    <script src='script.js'></script>
+    
+</body>
+</html>
